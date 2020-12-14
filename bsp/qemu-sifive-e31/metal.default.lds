@@ -23,6 +23,8 @@ PHDRS
     ram PT_LOAD;
     itim_init PT_LOAD;
     text PT_LOAD;
+    unmi PT_LOAD;
+    rnmi PT_LOAD;
     lim_init PT_LOAD;
 }
 
@@ -129,8 +131,6 @@ SECTIONS
         PROVIDE_HIDDEN ( metal_destructors_end = .);
     } >rom :rom
 
- 
-
     .ctors : {
         KEEP (*crtbegin.o(.ctors))
         KEEP (*crtbegin?.o(.ctors))
@@ -210,6 +210,22 @@ SECTIONS
         *(.gnu.linkonce.t.*)
     } >rom :text
 
+    .unmi_intvec 0x20410000 : {
+        KEEP (*(.unmi_intvec))
+    } >rom :unmi
+
+    .unmi_excpvec 0x20420000 : {
+        KEEP (*(.unmi_excpvec))
+    } >rom :unmi
+
+    .rnmi_intvec 0x20430000 : {
+        KEEP (*(.rnmi_intvec))
+    } >rom :rnmi
+
+    .rnmi_excpvec 0x20440000 : {
+        KEEP (*(.rnmi_excpvec))
+    } >rom :rnmi
+
     /* RAM SECTION
      *
      * The following sections contain data which is copied from read-only
@@ -267,8 +283,6 @@ SECTIONS
     PROVIDE( metal_segment_bss_source_start = LOADADDR(.tbss) );
     PROVIDE( metal_segment_bss_target_start = ADDR(.tbss) );
     PROVIDE( metal_segment_bss_target_end = ADDR(.bss) + SIZEOF(.bss) );
-
- 
 
     .stack (NOLOAD) : ALIGN(16) {
         PROVIDE(metal_segment_stack_begin = .);
