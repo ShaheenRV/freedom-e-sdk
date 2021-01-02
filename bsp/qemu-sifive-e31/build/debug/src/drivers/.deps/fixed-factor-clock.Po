@@ -1,0 +1,5 @@
+src/drivers/fixed-factor-clock.o: \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/src/drivers/fixed-factor-clock.c \
+ metal/machine/platform.h
+
+metal/machine/platform.h:

@@ -1,0 +1,130 @@
+src/pwm.o: \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/src/pwm.c \
+ metal/machine.h metal/machine/platform.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/fixed-clock.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/clock.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/lib/gcc/riscv64-unknown-elf/8.3.0/include/stddef.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/compiler.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/memory.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/lib/gcc/riscv64-unknown-elf/8.3.0/include/stdint.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/stdint.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/sys/features.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/sys/_intsup.h \
+ /home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/sys/_stdint.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/riscv_clint0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/riscv_cpu.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/cpu.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/interrupt.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/riscv_plic0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/pmp.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_gpio0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/gpio.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/led.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_pwm0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/pwm.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_rtc0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/io.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/rtc.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_spi0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/spi.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_test0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/shutdown.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_uart0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/uart.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_wdog0.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/watchdog.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h
+
+metal/machine.h:
+
+metal/machine/platform.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/fixed-clock.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/clock.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/lib/gcc/riscv64-unknown-elf/8.3.0/include/stddef.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/compiler.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/memory.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/lib/gcc/riscv64-unknown-elf/8.3.0/include/stdint.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/stdint.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/sys/features.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/_newlib_version.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/sys/_intsup.h:
+
+/home/muhammad/Downloads/w/riscv64-unknown-elf-gcc-8.3.0-2020.04.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/sys/_stdint.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/riscv_clint0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/riscv_cpu.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/cpu.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/interrupt.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/riscv_plic0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/pmp.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_gpio0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/gpio.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/led.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_pwm0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/pwm.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_rtc0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/io.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/rtc.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_spi0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/spi.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_test0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/shutdown.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_uart0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/uart.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_wdog0.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/watchdog.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:

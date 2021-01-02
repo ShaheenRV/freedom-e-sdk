@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/gloss/crt0.S

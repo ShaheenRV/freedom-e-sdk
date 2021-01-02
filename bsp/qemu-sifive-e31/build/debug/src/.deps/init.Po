@@ -1,0 +1,5 @@
+src/init.o: \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/src/init.c \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/init.h
+
+/home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/metal/init.h:

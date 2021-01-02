@@ -1,0 +1,5 @@
+src/drivers/sifive_i2c0.o: \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/src/drivers/sifive_i2c0.c \
+ metal/machine/platform.h
+
+metal/machine/platform.h:

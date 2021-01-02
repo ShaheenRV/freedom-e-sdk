@@ -1,0 +1,2 @@
+src/scrub.o: \
+ /home/muhammad/Desktop/freedom-e-sdk/freedom-e-sdk/freedom-e-sdk/freedom-metal/src/scrub.S
